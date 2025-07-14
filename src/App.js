@@ -2,6 +2,7 @@ import Navbar from './component/navbar/navbar';
 import Principal from './component/principal/principal';
 import About from './component/about/about';
 import Rodape from './component/rodape/rodape';
+import Indicacoes from './component/indicacoes/indicacoes';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <Navbar/>
         <Principal/>
         <About/>
+        <Indicacoes/>
         <Rodape/>
       </header>
     </div>
